@@ -20,7 +20,7 @@ let WebBluetooth = (function() {
 
 	// UTF-8
 	let encoder = new TextEncoder('utf-8');
-  let decoder = new TextDecoder('utf-8');
+  	let decoder = new TextDecoder('utf-8');
 
 	class WebBluetooth {
 
