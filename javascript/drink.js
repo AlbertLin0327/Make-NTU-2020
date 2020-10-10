@@ -1,5 +1,3 @@
-
-
 var trigger = document.getElementById("confirm");
 trigger.addEventListener("click", function(){
 	navigator.bluetooth.requestDevice({

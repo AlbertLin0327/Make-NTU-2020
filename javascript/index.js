@@ -1,6 +1,6 @@
 // bar array
-bar = ["../images/long-island.png", "../images/vodka-sunrise.png"]
-drink_name = ["long-island",  "vodka-sunrise"]
+bar = ["../images/long-island.png", "../images/vodka-sunrise.png", "../images/whiskey-coke.png", "../images/margarita.png", "../images/diy.png"]
+drink_name = ["long-island",  "vodka-sunrise", "whiskey-coke", "margarita", "diy"]
 
 // html object
 var increment = document.getElementById("next"); 
