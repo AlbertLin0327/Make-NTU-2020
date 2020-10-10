@@ -11,33 +11,27 @@
         />
     </head>
     <body>
-        <div class = "bar-viewer__container">
+        <div id = "background">
+            <a href = "./index.html"><img src = "../images/home.png" id = "home-button" /></a>
 
-            <div class = "bar-viewer__title">
-                <a href = "./index.html"><img src = "../images/home.png" id = "home-button" /></a>
+            <div id = "discription">Select three ingredients</div>
 
-                Home Bartender
-                <img src = "../images/wine-glass.png" id = "wine-glass"/>
+            <div id = "tequila" class = "choice-button" onclick = "select(this)">Tequila</div>
+            <div id = "coke" class = "choice-button" onclick = "select(this)">Coke</div>
+            <div id = "rum" class = "choice-button" onclick = "select(this)">Rum</div>
+            <div id = "lime" class = "choice-button" onclick = "select(this)">Lime</div>
+
+            <div id = "orange-juice" class = "choice-button" onclick = "select(this)">Orange Juice</div>
+            <div id = "whiskey" class = "choice-button" onclick = "select(this)">Whiskey</div>   
+            <div id = "gin" class = "choice-button" onclick = "select(this)">Gin</div>
+            <div id = "orange-liqueur" class = "choice-button" onclick = "select(this)">Orange Liqueur</div>
+
+            <div class = "bar-viewer__display">
+                <a href = "#" id = "confirm" class = "start-diy" name = "confirm" onclick = "making(this)">START!</a>
             </div>
 
-            <div class = "bar-viewer__main">
-
-                <div class = "bar-viewer__display">
-                    <img id = "display" src = "../images/unknown.png">
-                    <div id = "drink-text">
-                        <div id = "mixure">
-                            
-                        </div>
-                        
-                        <a href = "#" id = "confirm" name = "confirm">START!</a>
-                    </div>
-                </div>
-
-                
-            </div>
         </div>
-        <script src="../javascript/index.js"></script>
-        <script src="../javascript/diy.js"></script>
-        <script src="../javascript/drink.js"></script>
+        <script src = "../javascript/diy.js"></script>
+        <script src = "../javascript/drink.js"></script>
     </body>
 </html>

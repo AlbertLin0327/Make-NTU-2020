@@ -9,45 +9,30 @@
             media="screen"
             href="../css/drink.css"
         />
+        <link
+            rel="stylesheet"
+            type="text/css"
+            media="screen"
+            href="../css/whiskey-coke.css"
+        />
     </head>
     <body>
         <div class = "bar-viewer__container">
 
             <div class = "bar-viewer__title">
                 <a href = "./index.html"><img src = "../images/home.png" id = "home-button" /></a>
-
                 Home Bartender
-                <img src = "../images/wine-glass.png" id = "wine-glass"/>
             </div>
 
             <div class = "bar-viewer__main">
 
                 <div class = "bar-viewer__display">
-
-                    <img id = "display" src = "../images/whiskey-coke.png">
-                    <div id = "drink-text">
-                        <div id = "intro">
-                            <h1>Whiskey Coke</h1>
-                            <h2><br>
-                                Composition: <br>
-                                <blockquote>
-                                    • Whiskey 25% <br>
-                                    • Coke 75% <br>
-                                </blockquote>
-                            </h2>
-                            <h2><br><br>
-                                Loneliness tastes like the taste of alcohol without coke...
-                            </h2>
-                        </div>
-                        <a href = "#" id = "confirm" name = "confirm">START!</a>
-                    </div>
-
+                    <a href = "#" id = "confirm" start = "start-whiskey-coke" name = "confirm" onclick = "making(this)">START!</a>
                 </div>
 
                 
             </div>
         </div>
-
         <script src="../javascript/drink.js"></script>
     </body>
 </html>

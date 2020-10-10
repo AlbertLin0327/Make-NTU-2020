@@ -11,38 +11,41 @@
         />
     </head>
     <body>
-        <div class = "bar-viewer__container">
+        <div id = "bg-img">
+            <div class = "bar-viewer__container">
 
-            <div class = "bar-viewer__title">
-                <a href = "./index.html"><img src = "../images/home.png" id = "home-button" /></a>
-
-                Home Bartender
-                <img src = "../images/wine-glass.png" id = "wine-glass"/>
-            </div>
-
-            <div class = "bar-viewer__main">
-                <div class = "bar-viewer__button">
-                    <img src="../images/back.png" id="previous" />
+                <div class = "bar-viewer__title">
+                    Home Bartender
                 </div>
 
-                <div class = "bar-viewer__display">
-                    <a id = "display-id"><img id = "display"></a>
-                    <img id = "bg-display" src = "./images/loading.gif">
+                <div id = "name-display"> 
+                    <span id = "link-area">
+                        <span id = "source-link"></span>
+                    </span>
+                </div>
 
-                    <div class = "bar-viewer__display-source-wrapper">
-                        <span id = "link-area">Drink Name: 
-                            <span id = "source-link"></span>
-                        </span>
+                <div class = "bar-viewer__main">
+
+                    <div class = "bar-viewer__button">
+                        <img src="../images/back.png" id="previous" />
+                    </div>
+
+
+
+                    <div class = "bar-viewer__display">
+                        <a id = "display-id"><img id = "display"></a>
+                        <img id = "bg-display" src = "./images/loading.gif">
+
+                        
+                    </div>
+
+                    <div class = "bar-viewer__button">
+                        <img src="../images/next.png" id="next" />
                     </div>
                 </div>
-
-                <div class = "bar-viewer__button">
-                    <img src="../images/next.png" id="next" />
-                </div>
             </div>
+            
+            <script src = "../javascript/index.js"></script>
         </div>
-        
-        <script src = "../javascript/index.js"></script>
-
     </body>
 </html>

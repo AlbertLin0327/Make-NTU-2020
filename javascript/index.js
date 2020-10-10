@@ -1,6 +1,7 @@
 // bar array
 bar = ["../images/long-island.png", "../images/vodka-sunrise.png", "../images/whiskey-coke.png", "../images/margarita.png", "../images/diy.png"]
-drink_name = ["long-island",  "vodka-sunrise", "whiskey-coke", "margarita", "diy"]
+html_name = ["long-island",  "vodka-sunrise", "whiskey-coke", "margarita", "diy"]
+drink_name = ["Long Island", "Vodka Sunrise", "Whiskey Coke", "Margarita", "Do It Yourself"]
 
 // html object
 var increment = document.getElementById("next"); 
@@ -11,7 +12,7 @@ var link = document.getElementById("source-link");
 
 //function of changing drink
 function changedrink(){
-	picture.closest('a').href = drink_name[current] + ".html";
+	picture.closest('a').href = html_name[current] + ".html";
 	picture.src = "";
 	loading.style.display = "";
 	picture.src = bar[current];
