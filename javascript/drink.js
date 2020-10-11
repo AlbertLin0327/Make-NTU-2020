@@ -14,6 +14,7 @@ var making = function(node){
 
 	navigator.bluetooth.requestDevice({ filters: [{ name: 'GARLIC' }] })
 	.then(device => device.gatt.connect())
+	.then(service => service.getCharacteristic(s))
 	.then(characteristic => {
 		if(val == 4){
 			val = trans()
